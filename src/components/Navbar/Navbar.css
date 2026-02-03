@@ -1,14 +1,12 @@
-/* Reset básico para evitar espaços indesejados */
 .navbar-container {
     display: flex;
-    justify-content: space-between; /* Mágica acontece aqui: um para cada lado */
-    align-items: center;           /* Alinha verticalmente */
-    padding: 15px 8%;              /* Espaçamento interno profissional */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
     background-color: black;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Sombra suave moderna */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* Estilo do Logo */
 .navbar-logo span {
     font-size: 1.4rem;
     font-weight: 800;
@@ -17,14 +15,13 @@
     font-family: sans-serif;
 }
 
-/* Container dos Links à direita */
+
 .navbar-menu {
     display: flex;
     align-items: center;
-    gap: 25px; /* Espaço entre Login e Registro */
+    gap: 25px; 
 }
 
-/* Link de Login (Mais discreto) */
 .login-link {
     text-decoration: none;
     color: red;
@@ -37,13 +34,13 @@
     color: #000;
 }
 
-/* Botão de Registro (Estilo "Call to Action") */
+
 .register-btn {
     text-decoration: none;
-    background-color: red; /* Azul vibrante */
+    background-color: red;
     color: white !important;
     padding: 10px 22px;
-    border-radius: 8px;       /* Bordas levemente arredondadas */
+    border-radius: 8px;
     font-weight: 600;
     font-size: 0.95rem;
     transition: all 0.3s ease;
@@ -52,6 +49,6 @@
 
 .register-btn:hover {
     background-color: #0056b3;
-    transform: translateY(-1px); /* Pequeno efeito de elevação */
+    transform: translateY(-1px);
     box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
 }

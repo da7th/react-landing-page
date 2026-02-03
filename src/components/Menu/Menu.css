@@ -1,25 +1,24 @@
 .nav-menu {
     display: flex;
-    justify-content: center; /* Centraliza as categorias horizontalmente */
+    justify-content: center;
     align-items: center;
-    background-color: grey; /* Um cinza bem claro para diferenciar da navbar principal */
+    background-color: grey;
     padding: 12px 0;
-    border-bottom: 1px solid #eee; /* Linha sutil para separação */
-    gap: 40px; /* Espaçamento generoso entre as categorias */
+    border-bottom: 1px solid #eee;
+    gap: 40px;
 }
-
+    
 .menu-category {
     text-decoration: none;
     color: black;
     font-size: 0.9rem;
     font-weight: 500;
-    text-transform: uppercase; /* Deixa o visual mais "editorial" */
+    text-transform: uppercase;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
-    position: relative; /* Necessário para o efeito da linha abaixo */
+    position: relative;
 }
 
-/* Efeito de hover com linha subindo */
 .menu-category:hover {
     color: red;
 }
