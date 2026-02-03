@@ -11,9 +11,6 @@ function App() {
 
       <div className="main-layout">
         <Sidebar />
-        <main className="content">
-          <h1>Conteúdo</h1>
-        </main>
       </div>
     </div>
   );
