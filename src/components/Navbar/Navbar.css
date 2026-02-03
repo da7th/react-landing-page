@@ -4,7 +4,7 @@
     justify-content: space-between; /* Mágica acontece aqui: um para cada lado */
     align-items: center;           /* Alinha verticalmente */
     padding: 15px 8%;              /* Espaçamento interno profissional */
-    background-color: #ffffff;
+    background-color: black;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Sombra suave moderna */
 }
 
@@ -12,7 +12,7 @@
 .navbar-logo span {
     font-size: 1.4rem;
     font-weight: 800;
-    color: #1a1a1a;
+    color: red;
     letter-spacing: -0.5px;
     font-family: sans-serif;
 }
@@ -27,7 +27,7 @@
 /* Link de Login (Mais discreto) */
 .login-link {
     text-decoration: none;
-    color: #555;
+    color: red;
     font-weight: 600;
     font-size: 0.95rem;
     transition: color 0.2s;
@@ -40,7 +40,7 @@
 /* Botão de Registro (Estilo "Call to Action") */
 .register-btn {
     text-decoration: none;
-    background-color: #007bff; /* Azul vibrante */
+    background-color: red; /* Azul vibrante */
     color: white !important;
     padding: 10px 22px;
     border-radius: 8px;       /* Bordas levemente arredondadas */
