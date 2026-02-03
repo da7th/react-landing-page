@@ -1,0 +1,27 @@
+.sidebar-div {
+    width: 250px;
+    min-width: 250px;
+    background-color: grey;
+    padding: 20px 0;
+    border-right: 1px solid #eee;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.x-name {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    transition: all 0.2s ease;
+}
+
+.x-name:hover {
+    color: #007bff;
+    background-color: #f9f9f9;
+    padding-left: 30px;
+}
